@@ -1,0 +1,10 @@
+.user-list {
+  display: flex;
+  flex-flow: wrap;
+
+  &__item {
+    min-width: 12.5rem;
+    flex-basis: 25%;
+    list-style: none;
+  }
+}

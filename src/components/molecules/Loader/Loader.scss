@@ -1,0 +1,11 @@
+.loader {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+
+  &__skeleton {
+    flex-basis: 25%;
+    max-width: 12.5rem;
+    min-width: 12.5rem;
+  }
+}
